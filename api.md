@@ -2,11 +2,11 @@
 ## Application Programming Interface
 ## used to communicate between two applications/platforms/languages in a secured manner/way.
 ```API Method
-0	 UNSENT  	Client has been created. open() not called yet.
-1	 OPENED	open() has been called.
-2	 HEADERS_RECEIVED	send() has been called, and headers and status are available.
-3	 LOADING	Downloading; responseText holds partial data.
-4	 DONE	The operation is complete.
+0	 UNSENT  	        Client has been created. open() not called yet.
+1	 OPENED	            open() has been called.
+2	 HEADERS_RECEIVED	send() has been called, and headers and status are    available.
+3	 LOADING	        Downloading; responseText holds partial data.
+4	 DONE	            The operation is complete.
 ```
 ```js
  const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
